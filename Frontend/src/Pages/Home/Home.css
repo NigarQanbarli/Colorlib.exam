@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: auto 0;
+}
+.container1 {
+    width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img img {
+  width: 60%;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width:768px){
+
+  .container1{
+    width: 768px;
+    display: contents;
+  }
+  
+}

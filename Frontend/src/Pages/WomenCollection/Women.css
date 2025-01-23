@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: auto 0;
+}
+.container-women {
+    width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.women-right p{
+    font: 2em sans-serif;
+    display: flex;
+}
+.women-right h1{
+    font: 4em sans-serif;
+}
+
+.women-right button{
+    border-radius: 50px;
+    border-color: bisque;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+    .container-women{
+      width: 768px;
+      display: contents;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+  }
